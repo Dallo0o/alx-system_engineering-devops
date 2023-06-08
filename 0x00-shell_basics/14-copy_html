@@ -1,2 +1,2 @@
 #!/bin/bash
-mv *.html . ..
+find . -name "*.html" -exec cp -t .. {} +
